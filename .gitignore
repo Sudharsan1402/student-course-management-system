@@ -1,0 +1,14 @@
+# Java
+target/
+*.class
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Node
+node_modules/
+
+# OS
+.DS_Store

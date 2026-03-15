@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h2 id="welcome"></h2>
+
+<br>
+
+<a href="courses.html">
+<button>View Courses</button>
+</a>
+
+<br><br>
+
+<a href="enrollments.html">
+<button>My Enrollments</button>
+</a>
+
+<br><br>
+
+<button onclick="logout()">Logout</button>
+
+<script src="script.js"></script>
+
+<script>
+
+window.onload = function(){
+
+checkLogin(); // ensures user is logged in
+
+const name = localStorage.getItem("studentName");
+
+document.getElementById("welcome").innerText =
+"Welcome " + name + " to Student Dashboard";
+
+}
+
+</script>
+
+</body>
+</html>
