@@ -220,3 +220,32 @@ INSERT INTO COURSE (ID, AVAILABLE_SEATS, DESCRIPTION, DURATION, NAME, TOTAL_SEAT
 (9, 34, 'Concepts of relational databases and normalization.', '40 Hours', 'Database Management Systems', 35),
 (10, 20, 'Building RESTful APIs using Spring Boot.', '30 Hours', 'REST API Development', 20);
 
+---
+
+```
+
+## 🔗 API Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | /api/students/register | Register student |
+| POST | /api/students/login | Login |
+| GET | /api/courses | View courses |
+| POST | /api/enroll/{courseId} | Enroll in a course |
+| DELETE | /api/enroll/{courseId} | Unenroll from a course |
+| GET | /api/students/{id}/enrollments | View enrollments |
+
+---
+
+## 💻 Frontend Pages
+
+| Page | Description |
+|------|-------------|
+| Login Page | Student login |
+| Registration Page | Signup with validation |
+| Dashboard | Welcome screen with navigation |
+| Course List | View and enroll in courses |
+| My Enrollments | View enrolled courses and unenroll |
+
+---
+
