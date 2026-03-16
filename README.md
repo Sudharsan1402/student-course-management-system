@@ -76,7 +76,7 @@ student-course-management-system
 │   │   │   ├── InvalidCredentialsException.java
 │   │   │   ├── CourseAlreadyEnrolledException.java
 │   │   │   ├── SeatsOverException.java
-│   │   │   └── ResourceNotFoundException.java
+│   │   │   
 │   │   │
 │   │   ├── config
 │   │   │   └── CorsConfig.java
@@ -96,11 +96,4 @@ student-course-management-system
 │   ├── script.js
 │   └── style.css
 │
-├── docs
-│   ├── openapi.json
-│   ├── api-docs.html
-│   └── bruno
-│
-├── screenshots
-│
-└── README.md
+
