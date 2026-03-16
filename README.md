@@ -38,3 +38,60 @@ This system provides a simple course enrollment platform where:
 ---
 
 ## 📁 Project Structure
+
+student-course-management-system
+│
+├── backend
+│   ├── src/main/java/com/example/studentapp
+│   │
+│   │   ├── controller
+│   │   │   ├── StudentController.java
+│   │   │   └── CourseController.java
+│   │   │
+│   │   ├── service
+│   │   │   ├── StudentService.java
+│   │   │   └── CourseService.java
+│   │   │
+│   │   ├── repository
+│   │   │   ├── StudentRepository.java
+│   │   │   ├── CourseRepository.java
+│   │   │   └── EnrollmentRepository.java
+│   │   │
+│   │   ├── entity
+│   │   │   ├── Student.java
+│   │   │   ├── Course.java
+│   │   │   └── Enrollment.java
+│   │   │
+│   │   ├── dto
+│   │   │   ├── StudentRequestDTO.java
+│   │   │   ├── StudentResponseDTO.java
+│   │   │   ├── LoginRequestDTO.java
+│   │   │   ├── CourseDTO.java
+│   │   │   └── EnrollmentDTO.java
+│   │   │
+│   │   ├── exception
+│   │   │   ├── GlobalExceptionHandler.java
+│   │   │   ├── EmailAlreadyExistsException.java
+│   │   │   ├── InvalidCredentialsException.java
+│   │   │   ├── CourseAlreadyEnrolledException.java
+│   │   │   ├── SeatsOverException.java
+│   │   │  
+│   │   │
+│   │   ├── config
+│   │   │   └── CorsConfig.java
+│   │   │
+│   │   └── StudentAppApplication.java
+│   │
+│   └── src/main/resources
+│       ├── application.properties
+│       └── data.sql   (optional: for seed data)
+│
+├── frontend
+│   ├── login.html
+│   ├── register.html
+│   ├── dashboard.html
+│   ├── courses.html
+│   ├── enrollments.html
+│   ├── script.js
+│   └── style.css
+│
