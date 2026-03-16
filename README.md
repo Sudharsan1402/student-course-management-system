@@ -235,6 +235,8 @@ erDiagram
     STUDENT ||--o{ ENROLLMENT : enrolls
     COURSE ||--o{ ENROLLMENT : contains
 
+```
+
 
 
 ## 🗄️ Database Seed Data
