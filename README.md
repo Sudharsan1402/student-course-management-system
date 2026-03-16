@@ -283,5 +283,19 @@ INSERT INTO COURSE (ID, AVAILABLE_SEATS, DESCRIPTION, DURATION, NAME, TOTAL_SEAT
 
 ---
 
+## 📊 Feature Summary
+
+| Feature | Status |
+|--------|--------|
+| Student Registration | ✅ Mandatory |
+| Student Login | ✅ Mandatory |
+| View Courses | ✅ Mandatory |
+| Enroll in Course | ✅ Mandatory |
+| View My Enrollments | ✅ Mandatory |
+| Unenroll from Course | ✅ Mandatory |
+| Course Seed Data (Static SQL) | ✅ Mandatory |
+
+---
+
 
 
