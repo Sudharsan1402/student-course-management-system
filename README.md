@@ -126,7 +126,7 @@ student-course-management-system
 ## ✅ Validation Rules
 
 | Rule | Required |
-|------|--------|
+|------|----------|
 | Name: alphabets only | ✅ Mandatory |
 | Email: valid & unique | ✅ Mandatory |
 | Password: min 6 chars, alphanumeric | ✅ Mandatory |
@@ -150,6 +150,7 @@ student-course-management-system
 | Password | Minimum 6 characters, alphanumeric |
 
 #### Logic
+
 - Store student in Oracle DB  
 - Password stored as BCrypt hash  
 
@@ -168,7 +169,7 @@ student-course-management-system
 Display all pre-loaded courses:
 
 | Column | Description |
-|-------|------------|
+|--------|------------|
 | Course ID | Unique ID |
 | Course Name | Name of course |
 | Description | Course details |
@@ -180,6 +181,7 @@ Display all pre-loaded courses:
 ### 4️⃣ Enroll in Course
 
 #### Flow
+
 1. Check if seats available  
 2. Check duplicate enrollment  
 3. Insert enrollment record  
@@ -193,6 +195,7 @@ Display all pre-loaded courses:
 - Provide **Unenroll button**
 
 #### Unenroll Flow
+
 1. Confirm action  
 2. Delete enrollment record  
 3. Increment available seats  
