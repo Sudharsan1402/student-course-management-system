@@ -39,6 +39,7 @@ This system provides a simple course enrollment platform where:
 
 ## 📁 Project Structure
 
+```bash
 student-course-management-system
 │
 ├── backend
@@ -75,7 +76,7 @@ student-course-management-system
 │   │   │   ├── InvalidCredentialsException.java
 │   │   │   ├── CourseAlreadyEnrolledException.java
 │   │   │   ├── SeatsOverException.java
-│   │   │  
+│   │   │   └── ResourceNotFoundException.java
 │   │   │
 │   │   ├── config
 │   │   │   └── CorsConfig.java
@@ -84,7 +85,7 @@ student-course-management-system
 │   │
 │   └── src/main/resources
 │       ├── application.properties
-│       └── data.sql   (optional: for seed data)
+│       └── data.sql
 │
 ├── frontend
 │   ├── login.html
@@ -95,3 +96,11 @@ student-course-management-system
 │   ├── script.js
 │   └── style.css
 │
+├── docs
+│   ├── openapi.json
+│   ├── api-docs.html
+│   └── bruno
+│
+├── screenshots
+│
+└── README.md
