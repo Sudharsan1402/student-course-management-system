@@ -205,6 +205,38 @@ Display all pre-loaded courses:
 
 ---
 
+---
+
+## 🗂️ ER Diagram
+
+```mermaid
+erDiagram
+
+    STUDENT {
+        Long id PK
+        String name
+        String email
+        String password
+    }
+
+    COURSE {
+        Long id PK
+        String name
+        String description
+        String duration
+        int totalSeats
+        int availableSeats
+    }
+
+    ENROLLMENT {
+        Long id PK
+        Long student_id FK
+        Long course_id FK
+    }
+
+    STUDENT ||--o{ ENROLLMENT : enrolls
+    COURSE ||--o{ ENROLLMENT : contains
+
 ## 🗄️ Database Seed Data
 
 ```sql
@@ -248,4 +280,6 @@ INSERT INTO COURSE (ID, AVAILABLE_SEATS, DESCRIPTION, DURATION, NAME, TOTAL_SEAT
 | My Enrollments | View enrolled courses and unenroll |
 
 ---
+
+
 
