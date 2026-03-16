@@ -205,8 +205,6 @@ Display all pre-loaded courses:
 
 ---
 
----
-
 ## 🗂️ ER Diagram
 
 ```mermaid
@@ -236,6 +234,8 @@ erDiagram
 
     STUDENT ||--o{ ENROLLMENT : enrolls
     COURSE ||--o{ ENROLLMENT : contains
+
+
 
 ## 🗄️ Database Seed Data
 
